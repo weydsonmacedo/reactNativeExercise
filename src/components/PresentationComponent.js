@@ -17,12 +17,12 @@ export default PresentationComponent = () => {
     email: "",
     password: ""
   }
-
+ 
 
   const pressed = () => {
     userData.email = email;
     userData.password = password;
-    Alert.alert("email:  "+ userData.email + "\n passoword:  "+userData.password) 
+    Alert.alert("email:  "+ userData.email + " \n password:  "+userData.password) 
 
   };
 
